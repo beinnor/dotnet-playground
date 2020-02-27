@@ -1,0 +1,15 @@
+UserController:
+dotnet aspnet-codegenerator controller -name UserController -async -api -m User -dc TodoTestContext -outDir Controllers
+
+TaskController:
+dotnet aspnet-codegenerator controller -name TaskController -async -api -m Task -dc TodoTestContext -outDir Controllers
+
+
+
+Endpoints needed?:
+
+POST /users/register : register a user
+
+POST /users/authenticate : send username+password, recieve jwt token
+
+

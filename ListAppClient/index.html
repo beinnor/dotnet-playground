@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ListApp Client</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>ListApp</h1>
+  <p>Really shitty simple prototype-ish frontend.</p>
+  <hr>
+  <h2>All items in list</h2>
+  <h3>id - text - isComplete</h3>
+  <div>
+    <ul id="allItems">
+
+    </ul>
+  </div>
+  <hr>
+  <h2>Add item to list</h2>
+  <form id="add-item-form">
+    <label for="name">List item text</label>
+    <input type="text" name="name" id="item-name">
+    <label for="iscomplete">Completed</label>
+    <input type="checkbox" name="iscomplete" id="item-iscomplete">
+    <button type="submit">Add</button>
+  </form>
+
+  <script src="js/site.js"></script>
+</body>
+
+</html>
